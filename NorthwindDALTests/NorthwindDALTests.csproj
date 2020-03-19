@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\NorthwindDALFramework\NorthwindDALFramework\NorthwindDALFramework.csproj" />
+    <ProjectReference Include="..\NorthwindDAL\NorthwindDAL.csproj" />
   </ItemGroup>
 
 </Project>
