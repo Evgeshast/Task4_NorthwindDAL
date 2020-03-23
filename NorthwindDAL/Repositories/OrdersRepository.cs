@@ -7,7 +7,7 @@ using NorthwindDAL.Entities;
 
 namespace NorthwindDAL.Repositories
 {
-    public class Orders : IRepository<Order>
+    public class OrdersRepository : IRepository<Order>
     {
         public IEnumerable<Order> GetAll()
         {
